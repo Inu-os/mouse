@@ -1,14 +1,26 @@
 <html>
-	<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-		<title> Mousetrap</title>
-	</head>
-	
-	<body>
-		 <video width="100%" height="auto" controls autoplay loop onloadstart="this.volume=0.1">
-  		 <source src="360who.mp4" type="video/mp4">
-  		 <source src="360who.ogg" type="video/ogg">
-		 </video> 
-	</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>MouseTrap - Loading...</title>
+        <style>
+            body {
+                margin: 0;
+                background: black;
+            }
+
+            video {
+                position: absolute;
+                width: 100vw;
+                height: 100vh;
+            }
+        </style>
+    </head>
+
+    <body>
+        <video width="100%" height="auto" controls autoplay loop onloadstart="this.volume=0.1">
+            <source src="360who.mp4" type="video/mp4">
+            <source src="360who.ogg" type="video/ogg">
+        </video>
+    </body>
 </html>
